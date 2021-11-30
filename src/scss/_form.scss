@@ -1,0 +1,25 @@
+.form {
+    padding: 3.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    // justify-content: 
+    &--fields {
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+        input {
+            border-radius: 1rem;
+            padding:1.5rem 2rem;
+            width: 50%;
+        }
+    }
+    &--btn-submit {
+        width:100%;
+        align-self: center;
+        padding: 1.5rem;
+        border-radius: 1rem;
+        font-family: "Karla", "sans-serif";
+    }
+
+}

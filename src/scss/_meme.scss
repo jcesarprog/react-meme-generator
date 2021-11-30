@@ -1,0 +1,37 @@
+.meme {
+  //   border: 1px solid red;
+  position: relative;
+  color: white;
+  padding: 2rem;
+  img {
+    width: 100%;
+  }
+
+  h2 {
+    position: absolute;
+    text-align: center;
+    width: 95%;
+    font-size: 4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: -1px;
+    text-shadow:
+        2px 2px 0 #000,
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        0 2px 0 #000,
+        2px 0 0 #000,
+        0 -2px 0 #000,
+        -2px 0 0 #000,
+        2px 2px 5px #000;
+}
+  
+  &--title{
+    top: 3rem;
+  }
+  &--subtitle{
+    bottom: 3rem;
+  }
+}

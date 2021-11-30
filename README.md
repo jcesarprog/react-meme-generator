@@ -4,4 +4,4 @@
 
 ## still not responsive, will make it responsive soon as i finish other projects
 
-[ScreenShot](screenshot.png)
+![ScreenShot](screenshot.png)
